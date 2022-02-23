@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FoxEatter Gaming Tournament</title>
+	</head>
+	<body>
+		<h1>FoxEatter Gaming <span>Tournament</span>  Registration form</h1>
+		<form action="https://www.w3schools.com/action_page.php" target="_blank" method="post">
+			
+			<div>
+				<label for="name">Name</label>
+				<input type="text" name="name" placeholder="First Name" >
+				
+				<input type="text" name="name" placeholder="Last Name">
+				<label for="name"></label>
+			</div>
+			<br><br>
+
+			<label>Gender:</label>
+			<input type="radio" name="gender" value="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" value="female">
+			<label for="female">Female</label>
+			<br><br>
+
+			<label for="email">Email</label>
+			<input type="email" name="email" placeholder="abc@gmail.com" required>
+			<br><br>
+			<label>Select a game:</label>
+			<input type="checkbox" name="game" value="valorant">
+			<label for="valorant">Valorant</label>
+			<input type="checkbox" name="game" value="cs:go">
+			<label for="cs:go">CS:GO</label>
+			<input type="checkbox" name="game" value="dota">
+			<label for="dota">Dota</label>
+			<input type="checkbox" name="game" value="fifa">
+			<label for="fifa">Fifa2022</label>
+			<br><br>
+
+			<label>Division</label>
+			<select name="division">
+				<option value="dhk">Dhaka</option>
+				<option value="ctg">Chittagong</option>
+				<option value="raj">Rajshahi</option>
+				<option value="syt">Syhlet</option>
+				<option value="barisal">Barisal</option>
+				<option value="khu">Khulna</option>
+			</select>
+			<br><br>
+			<label>Why do you want to attend?</label><br>
+			<textarea name="Reason"row="5" cols="50" placeholder="Write down here"></textarea>
+			<br>
+			<label>Remember</label><br>
+			<textarea name="Reason"row="2" cols="10"  readonly>Always try to be happy</textarea>
+			<br>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+			
+
+
+		</form>
+
+	</body>
+</html>
